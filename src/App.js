@@ -2,8 +2,12 @@ import './App.css';
 
 import React, {useState} from "react" ;
 import AddItem from './components/addItem';
+import Login from './components/login';
+import Signup from './components/signup';
+
 import {DisplayTransaction} from './components/displayTransaction';
 import Home from './components/home';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
 function App() 
 {
